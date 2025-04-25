@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Elegant Mobile OS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="status-bar">
+    <span id="datetime">
+      <span id="time">--:--</span>
+      <span id="date">--/--/----</span>
+    </span>
+    <span id="battery">🔋 --%</span>
+  </div>
+
+  <div id="home-screen">
+    <div class="app" data-app="camera">
+      <div class="icon">📷</div>
+      <div class="label">Camera</div>
+    </div>
+    <div class="app" data-app="browser">
+      <div class="icon">🌐</div>
+      <div class="label">Browser</div>
+    </div>
+    <div class="app" data-app="notes">
+      <div class="icon">📝</div>
+      <div class="label">Notes</div>
+    </div>
+  </div>
+
+  <div id="app-container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
